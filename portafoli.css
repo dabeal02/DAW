@@ -1,0 +1,82 @@
+body{
+    background-color: #1F1F1F;
+}
+
+/* Primer apartado */
+#logo{
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.titulos{
+    font-family: 'Rubik', sans-serif;
+    font-size: 80px;
+    color: #FFFFFF;
+}
+
+/* Apartado de skills */
+.subtitulos{
+    font-family: 'Cabin', sans-serif;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+.contenidorSkill{
+    background-color: #DCDCDC;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+
+}
+
+.tituloSkill{
+    padding-top: 15px;
+}
+
+.divSkill{
+        display: flex;
+}
+
+/* Manual de identidad corporativa */
+#textoCuartoApartado{
+    font-family: 'Copse', serif;
+    font-size: 50px;
+    color: #FFFFFF;
+    margin-top: 215px;
+}
+
+#fotoMia{
+    height: 700px;
+    width: 465px;
+    margin-left: 150px;
+    border: 17px solid #636566;
+    border-radius: 15px;
+}
+
+/* MVV */
+.parrafos{
+    font-family: 'Copse', serif;
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+
+.contenedor1{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 200px;
+}
+
+.contenedor2{
+    margin-bottom: 200px;
+    margin-right: 185px;
+    margin-left: 200px;
+}
+
+
+.contenedor3{
+    margin-bottom: 150px;
+}
+

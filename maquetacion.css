@@ -1,0 +1,249 @@
+/* font-family: 'Poppins', sans-serif;                     font-family: 'Roboto Slab', serif; */
+
+#miNavbar{
+    background-color: #704928;
+}
+
+#home{
+    margin-left: 2px;
+}
+
+#apartados{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 15px;
+}
+
+#element{
+    font-weight: bold;
+}
+
+#email{
+    margin-left: 300px;
+}
+
+#contenedorMaquetacion{
+    background-color: #945229;
+    border-radius: 15px;
+    margin-top: 40px;
+    width: 420px;
+    height: 100px;
+}
+
+#tituloMaquetacion{
+    color: #DCDCDC;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+}
+
+#titHerramientas{
+
+    margin-left: 104px;
+    margin-top: 45px;
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#contenedorHerramientas{
+
+background-color: #636566;
+width: 1700px;
+height: 620px;
+border: solid;
+border-width: 35px;
+border-color: #704928;
+
+
+}
+
+#contenedorFoto1{
+
+margin-top: 175px;
+background-color: #8D8F90;
+width: 190px;
+height: 190px;
+border-radius: 15px;
+
+}
+
+#foto1{
+
+margin-top: 16px;
+
+}
+
+#contenedorFoto2{
+
+margin-top: 175px;
+background-color: #8D8F90;
+width: 190px;
+height: 190px;
+border-radius: 15px;
+    
+}
+
+#foto2{
+
+margin-top: 16px;
+    
+}
+
+#contenedorFoto3{
+
+margin-top: 175px;
+background-color: #8D8F90;
+width: 190px;
+height: 190px;
+border-radius: 15px;
+    
+}
+
+#foto3{
+
+margin-top: 32px;
+
+}
+
+#contenedorEntero{
+    margin-top: 70px;
+    background-color: #636566;
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    height: 400px;
+    width: 500px;
+}
+
+#titContGrisOsc{
+    margin-top: 25px;
+    color: #DCDCDC;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#parrafContGrisOsc{
+    margin-top: 12px;
+    color: #DCDCDC;
+    margin-bottom: 50px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#semiContenedor{
+width: 400px;
+height: 240px;
+background-color: #8D8F90;
+border-radius: 15px;
+margin-bottom: 30px;
+
+}
+
+#titPuntos{
+    color: #222527;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#puntos{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+
+#puntos2{
+    margin-top: 70px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+
+#puntosOro{
+    background-color: #8D8F90;
+    border-radius: 15px;
+    margin-bottom: 80px;
+    width: 450px;
+    height: 280px;
+}
+
+#masInfo{
+
+    background-color: #945229;
+    padding-bottom: 100px;
+
+}
+
+#titInfo{
+
+    margin-top: 40px;
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    color: #DCDCDC;
+    margin-left: 740px;
+}
+
+#contFoto{
+
+
+}
+
+#fotoPensando{
+
+    margin-top: 65px;
+    margin-right: 443px;
+
+
+}
+
+#contenedorEntero2{
+    margin-top: 70px;
+    background-color: #636566;
+    border-radius: 15px;
+    margin-left: 635px;
+    margin-right: 30px;
+    height: 530px;
+    width: 600px;
+
+    
+}
+
+#semiContenedor2{
+    width: 500px;
+    height: 325px;
+    background-color: #8D8F90;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    
+    }
+
+    #titContGrisOsc2{
+        margin-top: 30px;
+        color: #DCDCDC;
+        font-size: 40px;
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 30px;
+    }
+    
+    
+    #boton{
+
+        margin-top: 90px;
+        background-color: #008bc2;
+        width: 400px;
+        height: 140px;
+        border-radius: 35px;
+        color: #DCDCDC;
+        padding-top: 30px;
+        font-size: 45px;
+        
+        
+        }
+        
+        #boton:hover{
+        
+            background-color: #0081b4;
+        }
+        
+        #fotoBoton{
+        
+            margin-top: 6px;
+        }

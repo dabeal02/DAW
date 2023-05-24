@@ -1,0 +1,24 @@
+/* font-family: 'Poppins', sans-serif;                     font-family: 'Roboto Slab', serif; */
+
+#miNavbar{
+    background-color: #704928;
+}
+
+#home{
+    margin-left: 2px;
+}
+
+#apartados{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 15px;
+}
+
+#element{
+    font-weight: bold;
+}
+
+#email{
+    margin-left: 300px;
+}
+

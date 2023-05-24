@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Con estas lineas de código implementamos bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./landing_page.css" /> <!-- Etiqueta per linkar el css. -->
+    <!-- Las siguiente slinias de código son para poder aplicar nuestra fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+
+  <!-- La linia de la navbar -->
+  <nav class="navbar navbar-expand-lg" id = "miNavbar">
+    <div class = "container-fluid" id = "home">
+        <!-- La imagen con su correspndiente id -->
+        <a class="navbar-brand"><img src="./Fotos/home.png" width="100" height="100"></a>
+    </div>
+
+    <!-- Aquí introduciremos nuestros 4 apartados -->
+    <div class = "container text-center" id = "apartados">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link ms-5" href="./persuasion.html" id="element">Persuasión y UX</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ms-5" href="./tipografia.html" id="element">Tipografía</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ms-5" href="./colores.html" id = "element">Colores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ms-5" href="./maquetacion.html" id = "element">Maquetación</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class = "container-fluid text-center" id = "cntEmail">
+      <img src="./Fotos/email_good.PNG" alt="" id = "email">
+    </div>
+
+  </nav>
+
+  <!-- En este contenedor va absolutamente toda la información -->
+  <div class = "container-fluid">
+    <!-- Este es el row donde vamos a dividir la página en dos -->
+    <div class = "row">
+
+      <!-- Esta es la primera columna -->
+      <div class = "col" id ="blanco">
+        <!-- Haremos un row para separar tanto mi imagen como la del centro -->
+          <div class = "row">
+            <div class = "col">
+
+              <div class = "container" id = "marcoImagen">
+                <div class = "container text-center" id="imagenMia">
+                  <img src="./Fotos/Foto_mia.jpeg" width="320" height="470" alt="Imagen mia" id = "archivoImagen">
+                </div>
+              </div>
+
+            </div>
+            <!-- Aquí pondremos la imagen del centro -->
+            <div class = "col">
+              
+              <img src="./Fotos/politecnics.png" width="420" height="110" alt="Imagen mia" id = "imagenCentro">
+
+            </div>
+          </div>
+          <!-- En este row pondremos la información sobre mi -->
+          <div class = "row">
+            <div class = "col">
+              <p id = "texto">Mi nombre es David Béjar y tengo 20 años. Nací en Barcelona y cuando acabé los estudios obligatorios decidí introducirme en el sector de la mecánica. Concluído el grado medio de fabricación por arrancamiento de viruta (Mecanizado), me di cuenta que no estaba preparado y que mi objetivo no era trabajar en el sector de la mecánica. Así que decidí probar con la informática y cambiando de rama me siento mucho más identificado. Tengo el objetivo de convertirme en desarrollador web.</p>
+            </div>
+          </div>
+      </div>
+
+      <!-- Esta es la segunda columna -->
+      <div class = "col text-center" id = "marron">
+        <h1 id = "titulo">Mi propio manual de identidad corporativa</h1>
+        <div class = "container" id = "gris1">
+          <p id = "texto1der">Este es mi manual de indetidad corporativa. A través de todas las pindolas del módulo de diseño me he informado y recogido apuntes para realizar esta web. Aquí estaran bolcados mis conocmientos sobre la persuasión web hacia el usuario, la experiencia y confort que este siente y podemos transmitirle, todo lo que he aprendido sobre el color y su psicología, al igual que con la tipografía y maquetación.</p>
+        </div>
+        <div class = "container" id = "gris2">
+          <p id = "texto2der">A través de los apartados de la barra de navegación podremos explorar todo aquello que he aprendido y quiero compartir, así como chuletas, apuntes e infografías.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+        
+</body>

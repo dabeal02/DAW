@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Con estas lineas de código implementamos bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./persuasion.css" /> <!-- Etiqueta per linkar el css. -->
+    <!-- Las siguiente slinias de código son para poder aplicar nuestra fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+
+  <!-- La linia de la navbar -->
+  <nav class="navbar navbar-expand-lg" id = "miNavbar">
+    <div class = "container-fluid" id = "home">
+        <!-- La imagen con su correspndiente id -->
+        <a class="navbar-brand" href="./landing_page.html"><img src="./Fotos/home.png" width="100" height="100"></a>
+    </div>
+
+    <!-- Aquí introduciremos nuestros 4 apartados -->
+    <div class = "container text-center" id = "apartados">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link ms-5" id="element">Persuasión y UX</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ms-5" href="tipografia.html" id="element">Tipografía</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ms-5" href="./colores.html" id = "element">Colores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ms-5" href="./maquetacion.html" id = "element">Maquetación</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class = "container-fluid text-center" id = "cntEmail">
+      <img src="./Fotos/email_good.PNG" alt="" id = "email">
+    </div>
+
+  </nav>
+
+
+  <!-- Este es el div de la persuasion -->
+  <div class = "container-fluid text-center" id = "claro">
+
+    <!-- En este row pondremos el título -->
+    <div class = "row">
+      <div class = "col" id = "contenPers">
+        <h1 id = "pers">Persuasión al usuario</h1>
+      </div>
+    </div>
+
+    <!-- En este row pondremos el primer div de color gris -->
+    <div class = "row">
+      <div class = "col-3" id = "contenGrisIz">
+        <p id = "pGrisIz">A la hora de crear un diseño web, es fundamental poder atraer correctamente al usuario para poder vendernos. Para eso hay unos tips clave a seguir los cuales menciono en la siguiente infografía</p>
+      </div>
+    </div>
+
+    <!-- En este row pondremos nuestro corcho y el contenedor gris de la derecha -->
+    <div class = "row">
+
+      <!-- Corcho -->
+      <div class = "col">
+        <div class = "container">
+
+          <img src="./Fotos/Corcho.PNG" width="1300" height="700" alt="Foto de la infografía de la persuasión" id="foto">
+
+        </div>
+      </div>
+
+      <!-- Contenedor gris -->
+      <div class = "col">
+        <div class = "container" id = "contenGrisAbaj">
+
+          <p id = "pGrisDer">¿Te gustaría ver la plantilla que he usado para hacer esta infografía?</p>
+
+        </div>
+
+        <!-- Botón para ver la información -->
+        <a href="https://docs.google.com/document/d/1AnmS-XHX0WoorHq7RS7YNLeEyym6JZzdBgEv5l6A8Dw/edit" target="_blank" class = "btn" id = "boton">¡Vamos!</a>
+
+    </div>
+
+  <!-- Aqí debería ir el cierre del div del contenedor marrón claro, per si lo pongo no queda bien maquetado -->
+
+
+  <!-- Este es el div de la experiencia del usuario -->
+  <div class = "container-fluid text-center" id = "oscuro">
+
+    <!-- Título -->
+    <div class = "row">
+      <div class = "col" id = "contenExp">
+        <h1 id = "exp">Experiencia y usabilidad del usuario</h1>
+      </div>
+    </div>
+
+
+
+
+    <div class = "row">
+      <!-- Primer contenedor el de la ziquierda -->
+      <div class = "container col" id = "contenedorEntero">
+
+        <!-- Primer row (título) -->
+        <div class = "row">
+          <h2 id = "titContGrisOsc">Experiencia del usuario</h2>
+        </div>
+
+        <!-- Segundo row (intro) -->
+        <div class = "row">
+          <p id = "parrafContGrisOsc">La experiencia del usuario la podemos catalogar cómo la interacción que tiene el usuario con nuestro servicio, en este caso nos interesa que el usuario esté lo más satisfecho posible</p>
+        </div>
+
+        <!-- Tercer row (puntos a tener en cuenta) -->
+        <div class = "row">
+
+          <div class = "container" id = "semiContenedor">
+
+            <h3 id = "titPuntos">Puntos a tener en cuenta con la experiencia del usuario</h3>
+
+            <div class = "row">
+
+              <p id = "puntos">·Para poder dar una buena experiencia es muy importante entender les emociones del usuario <br> ·Preguntar en el entorno del usuario que es lo que se espararian de nuestro servicio</p>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Segundo contenedor el de la derecha -->
+
+
+      <div class = "container col" id = "contenedorEntero">
+
+        <!-- Primer row (título) -->
+        <div class = "row">
+          <h2 id = "titContGrisOsc">Usabilidad del usuario</h2>
+        </div>
+
+        <!-- Segundo row (intro) -->
+        <div class = "row">
+          <p id = "parrafContGrisOsc">La usabilidad es la facilitación que tiene el usuario para encontrar y cumplir todas las prestaciones de la manera más eficaz posible.</p>
+        </div>
+
+        <!-- Tercer row (puntos a tener en cuenta) -->
+        <div class = "row">
+
+          <div class = "container" id = "semiContenedor">
+
+            <h3 id = "titPuntos">Puntos a tener en cuenta con la usabilidad del usuario</h3>
+
+            <div class = "row">
+
+              <p id = "puntos">·El contenido tiene que ser digerible <br> ·Claro y preciso <br> ·El usuario tiene que confiar en nosotros <br> ·Dar una apriencia familiar <br>·Pensar cómo el usuario</p>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Aquí pondremos mis puntos de oro -->
+    <div class = "row">
+
+      <div class = "col">
+
+        <div class = "container" id = "puntosOro">
+
+          <!-- Título -->
+          <div class = "row">
+            <h2 id = "tituloPuntosDeOro">Mis puntos de oro</h2>
+          </div>
+
+          <!-- Puntos -->
+          <div class = "row">
+            <p id = "parrafoPuntosDeOro">·Crear un diseño amigable <br>·Los colores tienen que tener una excelente coherencia <br>·Acceso rápido <br>·Buena velocidad de carga</p>
+          </div>
+
+        </div>
+          
+      </div>
+
+    </div>
+
+    
+  </div>
+
+        
+</body>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Con estas lineas de código implementamos bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+  </script>
+  <link rel="stylesheet" href="./colores.css" /> <!-- Etiqueta per linkar el css. -->
+  <!-- Las siguiente slinias de código son para poder aplicar nuestra fuente -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- La linia de la navbar -->
+  <nav class="navbar navbar-expand-lg" id="miNavbar">
+    <div class="container-fluid" id="home">
+      <!-- La imagen con su correspndiente id -->
+      <a class="navbar-brand" href="./landing_page.html"><img src="./Fotos/home.png" width="100" height="100"></a>
+    </div>
+
+    <!-- Aquí introduciremos nuestros 4 apartados -->
+    <div class="container text-center" id="apartados">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link ms-5" href="./persuasion.html" id="element">Persuasión y UX</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ms-5" href="./tipografia.html" id="element">Tipografía</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ms-5" id="element">Colores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ms-5" href="./maquetacion.html" id="element">Maquetación</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="container-fluid text-center" id="cntEmail">
+      <img src="./Fotos/email_good.PNG" alt="" id="email">
+    </div>
+
+  </nav>
+
+  <!-- Esto es el título -->
+  <div class="col">
+
+    <div class="container text-center" id="contenedorColores">
+
+      <h1 id="tituloColores">Colores</h1>
+
+    </div>
+
+  </div>
+
+  <!-- Vamos a hacer la paleta de colores -->
+
+  <div class="class container text-center" id="contenedorPaleta">
+
+    <div class="col">
+
+      <!-- Row para el título -->
+      <div class="row">
+
+        <h2 id="tituloPaleta">Paleta de colores</h2>
+
+      </div>
+
+      <!-- Row para la paleta -->
+      <div class="row">
+
+        <div class="container" id="contenedorPaletaBlanco">
+
+          <!-- La primera fila con los 3 colores -->
+          <div class="row">
+
+            <div class="col" id="color1">
+              <h3>#704928</h3>
+            </div>
+
+            <div class="col" id="color2">
+              <h3>#945229</h3>
+            </div>
+
+            <div class="col" id="color3">
+              <h3>#636566</h3>
+            </div>
+
+          </div>
+
+          <!-- La segunda fila -->
+          <div class="row">
+
+            <div class="col" id="color4">
+              <h3>#704928</h3>
+            </div>
+
+            <div class="col" id="color5">
+              <h3>#945229</h3>
+            </div>
+
+            <div class="col" id="contenedor2Colores">
+              <div class="row">
+                <div class="col" id="color6">
+                  <h3>#222527</h3>
+                </div>
+                <div class="col" id="color7">
+                  <h3>#dcdcdc</h3>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- Apartado 2 -->
+  <div class="container-fluid text-center" id="apartado2">
+
+    <div class="row">
+
+      <!-- Contenedor gris -->
+      <div class="col">
+
+        <div class="container" id="contenedorGris">
+
+          <p id="parrafoGris">Para usar esta paleta de colores he usado la idea monocromática. A demás he escogido una
+            tonalidad de azul complementaria al marrón que es mi color principal. Para los textos he querido romper los
+            estándards del típico negro absoluto y blanco, así que he añadido un poco de luz al negro y le he quitado al
+            blanco.</p>
+
+        </div>
+
+      </div>
+
+      <!-- Info xtra -->
+      <div class="col-3" id="infoXtra">
+
+        <div class="row">
+          <h2 id="titMasInfo">¿Quieres más información?</h2>
+        </div>
+
+        <div class="row">
+          <p id="infoTexto">Aquí te dejo documentos y <br> plantillas que me han ayudado <br> a estudiar el color</p>
+        </div>
+
+
+        <div class="row">
+
+          <div class="col">
+            <a href="https://docs.google.com/document/d/1mRPHET0oBq2xUJSLkRLsykRRzPUVCQPN_8_qwvMGFqU/edit?usp=sharing"
+              target="_blank" class="btn" id="boton"><img src="./Fotos/ojos.png" alt="" width="50px" height="50px"
+                id="fotoBoton"></a>
+          </div>
+
+          <div class="col">
+            <a href="https://docs.google.com/presentation/d/10sy3lfuR_bYKNov3u2AWHAOkXpvaTk1a5ZlurCyHe7M/edit#slide=id.g13d68953977_0_7"
+              target="_blank" class="btn" id="boton"><img src="./Fotos/ojos.png" alt="" width="50px" height="50px"
+                id="fotoBoton"></a>
+          </div>
+
+          <div class="col">
+            <a href="https://docs.google.com/document/d/15nH_ZIOa5ZSk_NHbkyK-fj-yy_w1B7KcvwYZexOhxqs/edit"
+              target="_blank" class="btn" id="boton"><img src="./Fotos/ojos.png" alt="" width="50px" height="50px"
+                id="fotoBoton"></a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Moodboard -->
+
+  <div class="container-fluid text-center" id="apartado3">
+
+
+    <div class="row">
+
+      <h2 id="titMoodboard">Moodboard</h2>
+
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <img src="./Fotos/moodboard_colores.PNG" alt="El moodboard de colores" id="moodboard">
+      </div>
+    </div>
+
+
+  </div>
+
+
+</body>

@@ -1,0 +1,107 @@
+/* font-family: 'Poppins', sans-serif;                     font-family: 'Roboto Slab', serif; */
+
+#miNavbar{
+    background-color: #704928;
+}
+
+#home{
+    margin-left: 2px;
+}
+
+#apartados{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#element{
+    font-weight: bold;
+}
+
+#email{
+    margin-left: 300px;
+}
+
+
+
+#marron{
+    background-color: #945229;
+}
+
+#titulo{
+    color: #DCDCDC;
+    font-size: 70px;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#gris1{
+    background-color: #8D8F90;
+    border-radius: 15px;
+    width: 700px;
+    height: 320px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    padding: 40px;
+}
+
+#texto1der{
+    font-size: 21px;
+    color: #222527;
+    font-family: 'Roboto Slab', serif;
+}
+
+#gris2{
+    background-color: #8D8F90;
+    border-radius: 15px;
+    width: 470px;
+    height: 260px;
+    margin-bottom: 90px;
+    padding: 42px;
+}
+
+#texto2der{
+    font-size: 22px;
+    color: #222527;
+    font-family: 'Roboto Slab', serif;
+}
+
+#blanco{
+    background-color: white;
+}
+
+#marcoImagen{
+    background-color: #636566;
+    width: 350px;
+    height: 500px;
+    padding: 5px;
+    padding-top: 5px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+#imagenMia{
+
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+#archivoImagen{
+    border-radius: 20px;
+}
+
+#imagenCentro{
+
+    margin-top: 180px;
+    margin-left: 15px;
+
+}
+
+#texto{
+    margin-top: 90px;
+    margin-left: 70px;
+    margin-right: 170px;
+    font-size: 24px;
+    color: #222527;
+    font-family: 'Roboto Slab', serif;
+}

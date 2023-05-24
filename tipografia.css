@@ -1,0 +1,180 @@
+/* font-family: 'Poppins', sans-serif;                     font-family: 'Roboto Slab', serif; */
+
+#miNavbar{
+    background-color: #704928;
+}
+
+#home{
+    margin-left: 2px;
+}
+
+#apartados{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 15px;
+}
+
+#element{
+    font-weight: bold;
+}
+
+#email{
+    margin-left: 300px;
+}
+
+#contenedorTipografia{
+    background-color: #945229;
+    border-radius: 15px;
+    margin-top: 40px;
+    width: 420px;
+    height: 100px;
+}
+
+#tituloTipografia{
+    color: #DCDCDC;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+}
+
+#marco{
+
+    margin-top: 100px;
+    background-color: #704928;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+#contenido{
+
+    background-color: #945229;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 30px;
+
+}
+
+#tituloContenedor{
+
+    margin-top: 15px;
+    color: #DCDCDC;
+    font-family: 'Poppins', sans-serif;
+    font-size: 37px;
+
+}
+
+#contTipografia{
+
+    margin-top: 55px;
+    background-color: #636566;
+    border-radius: 15px;
+    width: 600px;
+    height: 200px;
+
+}
+
+#tipografia{
+
+    color: #DCDCDC;
+    font-size: 60px;
+    padding-top: 53px;
+
+}
+
+
+#contJustificacion{
+
+    margin-top: 90px;
+    background-color: #8D8F90;
+    border-radius: 15px;
+    width: 950px;
+    height: 300px;
+    margin-bottom: 120px;
+}
+
+#justificacion{
+
+    color: #222527;
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+    padding-top: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#marco2{
+    background-color: #945229;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+#contenido2{
+
+    background-color: #704928;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 30px;
+
+}
+
+#contJustificacion2{
+
+    margin-top: 90px;
+    background-color: #8D8F90;
+    border-radius: 15px;
+    width: 950px;
+    height: 400px;
+    margin-bottom: 120px;
+
+}
+
+#contTipografia2{
+
+    margin-top: 55px;
+    background-color: #636566;
+    border-radius: 15px;
+    width: 700px;
+    height: 200px;
+
+}
+
+#titulosInferiores{
+
+    font-family: 'Poppins', sans-serif; 
+    font-size: 45px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+
+#marcoGris{
+
+    background-color: #8D8F90;
+    border-radius: 15px;
+    width: 350px;
+    height: 250px;
+    margin-top: 40px;
+
+}
+
+#boton{
+
+    background-color: #008BC2;
+    width: 250px;
+    height: 100px;
+    border-radius: 21px;
+    margin-top: 70px;
+    color: #DCDCDC;
+    font-size: 40px;
+    padding-top: 13px;
+
+}
+
+#boton:hover{
+
+    background-color: #0081b4;
+}

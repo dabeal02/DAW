@@ -1,0 +1,165 @@
+/* font-family: 'Poppins', sans-serif;                     font-family: 'Roboto Slab', serif; */
+
+#miNavbar{
+    background-color: #704928;
+}
+
+#home{
+    margin-left: 2px;
+}
+
+#apartados{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 15px;
+}
+
+#element{
+    font-weight: bold;
+}
+
+#email{
+    margin-left: 300px;
+}
+
+#claro{
+    background-color: #945229;
+}
+
+#contenPers{
+    margin-top: 60px;
+}
+
+#pers{
+    color: #DCDCDC;
+    font-family: 'Poppins', sans-serif;
+    font-size: 52px;
+}
+
+#contenGrisIz{
+    background-color: #8D8F90;
+    margin-left: 120px;
+    border-radius: 15px;
+    margin-bottom: 70px;
+}
+
+#pGrisIz{
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    padding-top: 13px;
+    color: #222527;
+}
+
+#contenGrisAbaj{
+    background-color: #8D8F90;
+    width: 270px;
+    height: 158px;
+    border-radius: 15px;
+    margin-top: 300px;
+    margin-right: 5px;
+}
+
+#pGrisDer{
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px;
+    padding-top: 9px;
+    color: #222527;
+}
+
+#foto{
+    margin-left: 250px;
+    margin-bottom: 60px;
+}
+
+#boton{
+    margin-top: 10px;
+    background-color: #008BC2;
+    margin-left: 400px;
+    border-radius: 15px;
+}
+
+#boton:hover{
+    background-color: #0081b4;
+}
+
+/* Aquí empezaremos a editar los estilos de la usabilidad y experiencia del usuario */
+
+#oscuro{
+    background-color: #704928;
+}
+
+#exp{
+    color: #DCDCDC;
+    font-family: 'Poppins', sans-serif;
+    font-size: 52px;
+}
+
+#contenExp{
+    margin-top: 60px;
+}
+
+#contenedorEntero{
+    margin-top: 70px;
+    background-color: #636566;
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    height: 500px;
+}
+
+#titContGrisOsc{
+    margin-top: 25px;
+    color: #DCDCDC;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#parrafContGrisOsc{
+    margin-top: 12px;
+    color: #DCDCDC;
+    margin-bottom: 50px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#semiContenedor{
+width: 700px;
+height: 240px;
+background-color: #8D8F90;
+border-radius: 15px;
+margin-bottom: 30px;
+
+}
+
+#titPuntos{
+    color: #222527;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#puntos{
+    margin-top: 15px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#puntosOro{
+    background-color: #8D8F90;
+    border-radius: 15px;
+    margin-bottom: 80px;
+    width: 450px;
+    height: 280px;
+}
+
+#tituloPuntosDeOro{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #DCDCDC;
+    margin-top: 20px;
+}
+
+#parrafoPuntosDeOro{
+    font-family: 'Roboto Slab', serif;
+    color: #DCDCDC;
+    margin-top: 20px;
+    font-size: 20px;
+}
